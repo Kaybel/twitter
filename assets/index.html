@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Twitter</title>
+  <link rel="stylesheet" href="css/grids.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <section class="row"> <h1> Twitter </h1> 
+      </section>
+  
+      <section class="row"> 
+
+        <div class="col-4" id="boxText"> 
+          <p><h4>Reto de Código</h4> <br>Hola, </br> soy front-end developer jr. <br> </br> <br> <p class="codigo"> Código</p> </br> </p> 
+        </div>
+        <div>
+          <textarea class = "col-4" onkeydown="contar()" onkeyup="contar()"  name="text" id="textId" cols="30" rows="10" placeholder="¿Qué estás pensando?">
+          </textarea> 
+          <input disabled size="3" value=" " id="contador"> 
+          <button id="btn"> Tweet </button>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-8">
+          <textarea class = "col-8" name="text2" id="textId2" cols="30" rows="10">
+          </textarea> 
+        </div>
+      </section>
+    </div>
+
+  </header>
+      <footer>
+        <script src="js/app.js"></script>
+      </footer>
+    </div>
+</body>
+</html>

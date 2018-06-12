@@ -1,0 +1,28 @@
+h1{
+  background-color: rgb(27, 167, 167);
+  color: white;
+  text-align: center;
+}
+
+#textId{
+  resize: none;
+}
+
+#boxText{
+  border: solid black 1px;
+}
+
+.codigo{
+  size: 10px;
+  color: blue;
+}
+#textId2{
+  resize: none;
+  height: 100px;
+  width: 500px;
+}
+
+ /* body{
+  background-image: url("https://unsplash.com/photos/uDj1xUY_8k8");
+  background-color: aliceblue;
+} */ 
